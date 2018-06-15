@@ -1,0 +1,25 @@
+body {
+  background-image: url("https://previews.123rf.com/images/detshana/detshana1601/detshana160100832/51549204-marble-texture-white-marble-background.jpg")
+}
+
+h1.name{font-family: "Georgia";
+        font-size: 70px;
+}
+h3.des{font-family: "Courier New";
+font-size: 30px;}
+span {
+    color: black;
+}
+hr {
+   border: none;
+   height: .5px;
+   /* Set the hr color */
+   color: black; /* old IE */
+   background-color: black; /* Modern Browsers */
+}
+
+h2.resulttitle{font-family: "Georgia";
+                font-size: 70px;}
+
+p.results{font-size: 30px;}
+

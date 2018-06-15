@@ -1,0 +1,92 @@
+<!DOCTYPE  HTML>
+
+<html>
+  <head> <title> Soul Food </title> 
+            <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <h1 class = "name" align = "center"> <b>Soul Food </b></h1>
+<hr style = "height: 4px" width = "50%">
+    <h3 class = "des" align = "center"> Do you ever want to go out to eat, but you don't know of a restaurant that will accomodate your dietary restrictions? Do you ever get so lazy that you don't want to drive to the other side of the valley for delicious food? Here is your solution! We will help you find the perfect restaurant so you don't have to search any longer. </h3>
+    
+        <form method="post">
+          <h3 align = "center">Locations:</h3>
+            <p align = "middle">
+              <label >
+                <!--<img class = "scott" align = "left" src = "https://files.slack.com/files-pri/TB200QLDV-FB8Q5S92T/screen_shot_2018-06-13_at_10.18.01.png">-->
+                <input name="location" type="radio" class="with-gap" value = "Scottsdale"/>
+                <span>Scottsdale</span>
+      
+              </label>
+            </p>
+            <p align = "middle">
+              <label >
+                <!--<img class = "phx" align = "center" src = "https://files.slack.com/files-pri/TB200QLDV-FB728925N/screen_shot_2018-06-13_at_10.17.29.png">-->
+                <input class = "button" name ="location" type="radio" class="with-gap"value = "Phoenix"/>
+                <span>Phoenix</span>
+              </label>
+            </p>
+            <p align = "middle">
+              <label >
+                <!--<img class = "temp" align = "right" src = "https://files.slack.com/files-pri/TB200QLDV-FB7G55G8L/screen_shot_2018-06-13_at_10.16.29.png">-->
+                <input class="with-gap" name="location" type="radio" value = "Tempe" />
+                <span>Tempe</span>
+                
+              </label>
+            </p>
+          
+            <h3 align = "middle"> Dietary Restrictions: </h3>
+            <form action="#" method="post">
+            <p align = "middle">
+              <label id = "bottle">
+                <input name="diet" type="radio" class="with-gap" value = "all"/>
+                <span>All</span>
+              </label>
+            </p>
+            <p align = "middle">
+              <label id= "bottle">
+                <input name="diet" type="radio" class="with-gap"value = "vegan"/>
+                <span>Vegan</span>
+              </label>
+            </p>
+            <p align = "middle">
+              <label id= "bottle">
+                <input class="with-gap" name="diet" type="radio" value = "vegetarian" />
+                <span>Vegetarian</span>
+              </label>
+            </p>   
+            <p align = "middle">
+            <label id= "bottle">
+                <input class="with-gap" name="diet" type="radio" value = "pescetarian" />
+                <span>Pescetarian</span>
+              </label>
+            </p> 
+            <p align = "middle">
+            <label id= "bottle">
+                <input class="with-gap" name="diet" type="radio" value = "organic" />
+                <span>Organic</span>
+              </label>
+            </p>  
+            <p align = "middle">
+            <label id= "bottle">
+                <input class="with-gap" name="diet" type="radio" value = "gluten free" />
+                <span>Gluten Free</span>
+              </label>
+            </p>
+            
+            <br>
+            
+          <p align = "middle">
+          <input type="Submit" value="Soul Search">
+          </p>
+
+        </form>
+  </body>
+  
+</html>
